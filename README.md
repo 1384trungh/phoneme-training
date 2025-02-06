@@ -1,3 +1,8 @@
+2/5/2025:
+- Retrained model with new mel spectrogram parameters of lower FFT and add hop length
+- Added multi processing capabilities to extract_phoneme.py, now only takes 15 minutes to run
+- Updated all "MFCC" occurrences to "Mel"
+- Newly trained model improved on loss by 0.03
 
 2/3/2025:
 - Updated extract_phoneme.py with changes & bug fixes from Daphne
