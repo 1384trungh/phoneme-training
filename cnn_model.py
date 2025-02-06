@@ -68,7 +68,7 @@ model.add(Dense(61, activation='softmax'))
 model.summary()
 
 # Define the directory containing the training images
-train_data_dir = 'timit_mfcc_images'
+train_data_dir = 'timit_mel_images'
 batch_size_tr = 32  # Batch size for training
 
 # ImageDataGenerator is used to preprocess the images and perform data augmentation (though here no augmentation is used)
@@ -85,7 +85,7 @@ train_generator = train_datagen.flow_from_directory(
                         class_mode='sparse')  # Use sparse labels (integers)
 
 # Define the directory containing the test images
-test_data_dir = 'timit_mfcc_images_test'
+test_data_dir = 'timit_mel_images_test'
 
 batch_size_ts = 5  # Batch size for testing
 

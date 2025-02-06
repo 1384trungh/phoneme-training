@@ -1,5 +1,5 @@
 TIMIT/
-timit_mfcc_images/
-timit_mfcc_images_test/
+timit_mel_images/
+timit_mel_images_test/
 github_rsa
 github_rsa.pub
